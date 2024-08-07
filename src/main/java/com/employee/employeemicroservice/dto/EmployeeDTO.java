@@ -19,7 +19,7 @@ public class EmployeeDTO {
     private String lastName;
 
     @NotNull(message = "Salary cannot be null")
-    private Integer salary;
+    private Double salary;
 
     @NotNull(message = "Join date cannot be null")
     private String joinDate;
